@@ -1,0 +1,12 @@
+**Duration:** 1 hour, 24 minutes, 15 seconds
+**Talk Title:** "Big Data Analytics: Mining Insights from the Data Deluge"
+**Overview:** Dive into the world of big data analytics, exploring the technologies and methodologies for extracting valuable insights from massive datasets. Discuss applications across industries, from healthcare to marketing, and the evolving role of data in decision-making.
+---
+**Duration:** 1 hour, 8 minutes, 40 seconds
+**Talk Title:** "Cyber-Physical Systems: Merging the Digital and Physical Worlds"
+**Overview:** Explore the convergence of physical and digital systems, discussing the interplay between sensors, actuators, and computing. Discover how cyber-physical systems are transforming industries like transportation, manufacturing, and healthcare, shaping a connected and automated future.
+---
+**Duration:** 1 hour, 11 minutes, 55 seconds
+**Talk Title:** "Neuromorphic Computing: Mimicking the Human Brain"
+**Overview:** Dive into the exciting field of neuromorphic computing, where AI models are inspired by the human brain's structure and functionality. Explore potential applications, advantages, and the future of computing that emulates biological systems.
+---

@@ -1,0 +1,33 @@
+For Q1: (use make test1 to compile and run ./test1)
+
+Interface:
+[2 mark] provides proper prompts and does not crash (assume valid user inputs). has a fancy banner showing name, 9-digit SFU ID, and SFU email address
+
+Option 1:
+[1 mark] prints an error message for a non-existing file (e.g., abc.txt)
+[1 mark] loads an existing file and report the # of entries correctly
+[1 mark] loads another file and reports the # of entries correctly
+
+Option 2*:
+[2 marks] print all talks from the file sorted by duration. For talks with the same duration, any order within that duration is acceptable. Need to see duration, title, overview (-0.5 for each missing)
+
+Option 3*:
+[2 marks] print all talks from the file sorted by title. For talks with the same title, any order within that title is acceptable. Need to see duration, title, overview (-0.5 for each missing)
+
+Option 4:
+[1 mark] able to print the talk as inputted (1 entry case -- try: Enhancing Human-Computer Interaction)
+[1 mark] able to print talks on the e day as inputted (multiple entries case, any order is ok -- 2 entries try: Optimizing Algorithms)
+[1 mark] able to print "No such talk on record." for an inputted title with no entry
+(other error check and/or message is optional)
+
+Option 5:
+[1 mark] terminates the program correctly without crashing
+
+[2 marks] no memory leaks (run the program with valgrind --leak-check==yes. Look for "in use at exit: 0 bytes in 0 blocks" in the HEAP SUMMARY)
+
+Check in the source code...
+[1 mark] the header file (a3_talklib.h) is included in the main file and the functions related to Talk structs are defined in the corresponding implementation file (a3_talklib.c)
+
+a dynamic array (via malloc) of Talk struct pointers is used to store the talk information. So something like "Talk **talkArray" or "Talk *talkArray". If not, keep the marks above, but set the total to 50%.
+
+*qsort must be used for Options 2&3 and student-defined compare functions must be present. If not, no marks for Options 2&3
